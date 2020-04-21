@@ -9,8 +9,6 @@ iOS파트 YB입니다.
 
 ## 목차
 
-<pre>
-<code>
 + 1차 세미나) vc간 이동 및 데이터 전달
 + 2차 세미나)
 + 3차 세미나)
@@ -18,13 +16,11 @@ iOS파트 YB입니다.
 + 5차 세미나)
 + 6차 세미나)
 + 7차 세미나)
-</code>
-</pre>
 
 ### 1차 과제   
 기한: ~2020.04.24(금)
 
-![Alt text](/Users/yangjaeug/Desktop/firstAssignment.png)
+![Alt text](/Users/yangjaeug/Desktop/firstAssignment.jpg)
 
 <pre>
 <code>
