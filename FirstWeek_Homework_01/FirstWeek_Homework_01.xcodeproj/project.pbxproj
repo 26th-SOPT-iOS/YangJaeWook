@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18CF91AE244ACA6D0049B9B9 /* FirstWeek_Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstWeek_Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF91AE244ACA6D0049B9B9 /* FirstWeek_Homework_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstWeek_Homework_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CF91B1244ACA6D0049B9B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18CF91B3244ACA6D0049B9B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18CF91B5244ACA6D0049B9B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		18CF91A5244ACA6D0049B9B9 = {
 			isa = PBXGroup;
 			children = (
-				18CF91B0244ACA6D0049B9B9 /* FirstWeek_Homework */,
+				18CF91B0244ACA6D0049B9B9 /* FirstWeek_Homework_01 */,
 				18CF91AF244ACA6D0049B9B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		18CF91AF244ACA6D0049B9B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18CF91AE244ACA6D0049B9B9 /* FirstWeek_Homework.app */,
+				18CF91AE244ACA6D0049B9B9 /* FirstWeek_Homework_01.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18CF91B0244ACA6D0049B9B9 /* FirstWeek_Homework */ = {
+		18CF91B0244ACA6D0049B9B9 /* FirstWeek_Homework_01 */ = {
 			isa = PBXGroup;
 			children = (
 				18CF91B1244ACA6D0049B9B9 /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				18CF91C5244ACB790049B9B9 /* PurpleViewController.swift */,
 				18CF91C7244ACB9E0049B9B9 /* RedViewController.swift */,
 			);
-			path = FirstWeek_Homework;
+			path = FirstWeek_Homework_01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18CF91AD244ACA6D0049B9B9 /* FirstWeek_Homework */ = {
+		18CF91AD244ACA6D0049B9B9 /* FirstWeek_Homework_01 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18CF91C2244ACA6E0049B9B9 /* Build configuration list for PBXNativeTarget "FirstWeek_Homework" */;
+			buildConfigurationList = 18CF91C2244ACA6E0049B9B9 /* Build configuration list for PBXNativeTarget "FirstWeek_Homework_01" */;
 			buildPhases = (
 				18CF91AA244ACA6D0049B9B9 /* Sources */,
 				18CF91AB244ACA6D0049B9B9 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = FirstWeek_Homework;
+			name = FirstWeek_Homework_01;
 			productName = FirstWeek_Homework;
-			productReference = 18CF91AE244ACA6D0049B9B9 /* FirstWeek_Homework.app */;
+			productReference = 18CF91AE244ACA6D0049B9B9 /* FirstWeek_Homework_01.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18CF91A9244ACA6D0049B9B9 /* Build configuration list for PBXProject "FirstWeek_Homework" */;
+			buildConfigurationList = 18CF91A9244ACA6D0049B9B9 /* Build configuration list for PBXProject "FirstWeek_Homework_01" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18CF91AD244ACA6D0049B9B9 /* FirstWeek_Homework */,
+				18CF91AD244ACA6D0049B9B9 /* FirstWeek_Homework_01 */,
 			);
 		};
 /* End PBXProject section */
@@ -299,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Jaeuk.FirstWeek-Homework";
-				PRODUCT_NAME = FirstWeek_Homework;
+				PRODUCT_NAME = FirstWeek_Homework_01;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Jaeuk.FirstWeek-Homework";
-				PRODUCT_NAME = FirstWeek_Homework;
+				PRODUCT_NAME = FirstWeek_Homework_01;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18CF91A9244ACA6D0049B9B9 /* Build configuration list for PBXProject "FirstWeek_Homework" */ = {
+		18CF91A9244ACA6D0049B9B9 /* Build configuration list for PBXProject "FirstWeek_Homework_01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18CF91C0244ACA6E0049B9B9 /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18CF91C2244ACA6E0049B9B9 /* Build configuration list for PBXNativeTarget "FirstWeek_Homework" */ = {
+		18CF91C2244ACA6E0049B9B9 /* Build configuration list for PBXNativeTarget "FirstWeek_Homework_01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18CF91C3244ACA6E0049B9B9 /* Debug */,

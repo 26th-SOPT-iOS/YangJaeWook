@@ -40,6 +40,14 @@ review
 
 <img width="1756" alt="first_Assignment02" src="https://user-images.githubusercontent.com/56633607/79964607-ebefb380-84c5-11ea-9d50-b4ba85f8be3b.png">
 
+<hr/>
+
+<div>
+ <img src="./READMEimg/fw_hw02-1.png" width="250" height="450">
+ <img src="./READMEimg/fw_hw02-3.png" width="250" height="450">
+ <img src="./READMEimg/fw_hw02-2.png" width="250" height="450">
+</div>
+
 <pre>
 <code>
 class ViewController: UIViewController {
