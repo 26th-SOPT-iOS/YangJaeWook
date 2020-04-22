@@ -24,7 +24,7 @@ iOS파트 YB입니다.
 
 기한: ~2020.04.24(금)
 
-![Alt text](/Users/yangjaeug/Desktop/YangJaeWook/readme_images/first_assignment01.png)
+<img width="1792" alt="first_assignment01" src="https://user-images.githubusercontent.com/56633607/79964541-d2e70280-84c5-11ea-82fc-86fa8fc2f319.png">
 
 review
 
@@ -38,7 +38,7 @@ review
 
 기한: ~2020.04.24(금)
 
-![Alt text](/Users/yangjaeug/Desktop/YangJaeWook/readme_images/first_Assignment02.png)
+<img width="1756" alt="first_Assignment02" src="https://user-images.githubusercontent.com/56633607/79964607-ebefb380-84c5-11ea-9d50-b4ba85f8be3b.png">
 
 <pre>
 <code>
