@@ -26,7 +26,9 @@ class SignUpViewController: UIViewController {
         receiveViewController.id = signupId.text
         receiveViewController.pw = signupPw.text
         
-        self.present(receiveViewController, animated: true, completion: nil)
+        self.present(receiveViewController, animated: true) {
+            self.navigationController?.popViewController(animated: false)
+        }
     }
 
     /*
