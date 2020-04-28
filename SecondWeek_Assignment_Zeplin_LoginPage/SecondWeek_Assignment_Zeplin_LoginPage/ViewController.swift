@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         // 이미지뷰에 이미지 넣기
-        imageView.image = UIImage(named: "sopt.png")
+        imageView.image = UIImage(named: "soptLogo.png")
     }
 
     @IBAction func transferData(_ sender: Any) {
