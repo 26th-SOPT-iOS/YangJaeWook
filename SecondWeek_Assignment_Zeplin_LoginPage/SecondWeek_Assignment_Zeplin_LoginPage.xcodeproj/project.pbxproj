@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1881496A24615AF900672E13 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881496924615AF900672E13 /* UserModel.swift */; };
+		1881496C2461617600672E13 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881496B2461617600672E13 /* HomeViewController.swift */; };
 		18CF91D6244AE5850049B9B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF91D5244AE5850049B9B9 /* AppDelegate.swift */; };
 		18CF91D8244AE5850049B9B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF91D7244AE5850049B9B9 /* SceneDelegate.swift */; };
 		18CF91DA244AE5850049B9B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF91D9244AE5850049B9B9 /* ViewController.swift */; };
@@ -14,10 +16,11 @@
 		18CF91DF244AE5870049B9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CF91DE244AE5870049B9B9 /* Assets.xcassets */; };
 		18CF91E2244AE5870049B9B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CF91E0244AE5870049B9B9 /* LaunchScreen.storyboard */; };
 		18CF91EC244AF2F40049B9B9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF91EB244AF2F40049B9B9 /* SignUpViewController.swift */; };
-		18CF91EE244AF31D0049B9B9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF91ED244AF31D0049B9B9 /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1881496924615AF900672E13 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1881496B2461617600672E13 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		18CF91D5244AE5850049B9B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18CF91D7244AE5850049B9B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18CF91D9244AE5850049B9B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,7 +29,6 @@
 		18CF91E1244AE5870049B9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CF91E3244AE5870049B9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CF91EB244AF2F40049B9B9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		18CF91ED244AF31D0049B9B9 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		18F62673245849A800F86EA8 /* SecondWeek_Assignment_Zeplin_LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondWeek_Assignment_Zeplin_LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -60,7 +62,8 @@
 				18CF91E0244AE5870049B9B9 /* LaunchScreen.storyboard */,
 				18CF91E3244AE5870049B9B9 /* Info.plist */,
 				18CF91EB244AF2F40049B9B9 /* SignUpViewController.swift */,
-				18CF91ED244AF31D0049B9B9 /* LogInViewController.swift */,
+				1881496924615AF900672E13 /* UserModel.swift */,
+				1881496B2461617600672E13 /* HomeViewController.swift */,
 			);
 			path = SecondWeek_Assignment_Zeplin_LoginPage;
 			sourceTree = "<group>";
@@ -139,8 +142,9 @@
 				18CF91DA244AE5850049B9B9 /* ViewController.swift in Sources */,
 				18CF91D6244AE5850049B9B9 /* AppDelegate.swift in Sources */,
 				18CF91EC244AF2F40049B9B9 /* SignUpViewController.swift in Sources */,
-				18CF91EE244AF31D0049B9B9 /* LogInViewController.swift in Sources */,
+				1881496A24615AF900672E13 /* UserModel.swift in Sources */,
 				18CF91D8244AE5850049B9B9 /* SceneDelegate.swift in Sources */,
+				1881496C2461617600672E13 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
