@@ -94,7 +94,7 @@ review
 
 기한 ~05.08, 2020
 
-![스크린샷 2020-05-06 오후 11.42.49](/Users/yangjaeug/Library/Application Support/typora-user-images/스크린샷 2020-05-06 오후 11.42.49.png)
+![스크린샷 2020-05-06 오후 11.42.49](/Users/yangjaeug/Desktop/YangJaeWook/READMEimg/스크린샷 2020-05-06 오후 11.42.49.png)
 
 ### 2차 과제 02
 
@@ -102,5 +102,4 @@ review
 
 기한 ~05.08, 2020
 
-![스크린샷 2020-05-06 오후 11.44.06](/Users/yangjaeug/Library/Application Support/typora-user-images/스크린샷 2020-05-06 오후 11.44.06.png)
-
+![스크린샷 2020-05-06 오후 11.44.06](/Users/yangjaeug/Desktop/YangJaeWook/READMEimg/스크린샷 2020-05-06 오후 11.44.06.png)
