@@ -215,31 +215,15 @@ review
 
 > UserModel.swift
 
-''' swift
-
-//
-
-// UserModel.swift
-
-// SecondWeek_Assignment_Zeplin_LoginPage
-
-//
-
-// Created by 양재욱 on 2020/05/05.
+<pre>
+  <code>
+  // Created by 양재욱 on 2020/05/05.
 
 // Copyright © 2020 양재욱. All rights reserved.
 
-//
-
-
-
 **import** Foundation
 
-
-
 **final** **class** UserModel {
-
-   
 
   **struct** User {
 
@@ -295,15 +279,17 @@ review
 
   }
 
-
-
 }
+  </code>
+</pre>
 
-'''
+
 
 > Login Button Action
 
-''' swift
+<pre>
+  <code>
+  
 
 **@IBAction** **func** loginAction(**_** sender: **Any**) {
 
@@ -342,8 +328,11 @@ review
 ​     
 
   }
+  </code>
+</pre>
 
-'''
+
+
 
 
 
