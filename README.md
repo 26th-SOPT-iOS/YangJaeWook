@@ -1,4 +1,4 @@
-# YangJaeUk
+# Yang Jaeuk
 양재욱
 
 안녕하세요
@@ -10,7 +10,7 @@ iOS파트 YB입니다.
 ## 목차
 
 + 1차 과제 : 1-1) 네비게이션을 이용한 화면 이동 | 1-2) vc간 이동 및 데이터 전달
-+ 2차 과제 : 
++ 2차 과제 : 2-1) 계산기 | 2-2) Zeplin을 활용해 AutoLayout 잡기
 + 3차 과제 :
 + 4차 과제 :
 + 5차 과제 :
@@ -83,3 +83,24 @@ review
 - navigation을 이용해 하나의 vc 간 present는 가능하지만 leafvc 부터 rootvc 까지 dismiss 하는 방법을 모르겠다.
 - UIButton을 vc 하단에 배치했으나 present modally를 하면 버튼이 사라지거나 상단으로 이상하게 배치되는 문제가 있다.
 - imageView를 모든 View에서 일정한 위치에 놓고싶다.
+
+
+
+<hr/>
+
+### 2차 과제 01
+
+#### 계산기
+
+기한 ~05.08, 2020
+
+![스크린샷 2020-05-06 오후 11.42.49](/Users/yangjaeug/Library/Application Support/typora-user-images/스크린샷 2020-05-06 오후 11.42.49.png)
+
+### 2차 과제 02
+
+####  Zeplin + AutoLayout
+
+기한 ~05.08, 2020
+
+![스크린샷 2020-05-06 오후 11.44.06](/Users/yangjaeug/Library/Application Support/typora-user-images/스크린샷 2020-05-06 오후 11.44.06.png)
+

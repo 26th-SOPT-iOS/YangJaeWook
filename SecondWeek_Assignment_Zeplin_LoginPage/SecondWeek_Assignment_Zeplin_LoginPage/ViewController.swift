@@ -19,9 +19,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setNavigationColor()
+        navigationController?.setNavigationBarHidden(false, animated: false)
+        // 네비게이션 하단밑줄 제거
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         // Do any additional setup after loading the view.
         // 이미지뷰에 이미지 넣기
-        imageView.image = UIImage(named: "soptLogo.png")
         idTextField.layer.cornerRadius = 22;
         pwTextField.layer.cornerRadius = 22;
         btnLogin.layer.cornerRadius = 24;

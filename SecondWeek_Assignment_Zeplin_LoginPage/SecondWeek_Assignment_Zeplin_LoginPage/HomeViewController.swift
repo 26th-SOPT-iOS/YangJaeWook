@@ -22,7 +22,8 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imgViewHome.image = UIImage(named: "oursoptBgImg")
+        navigationController?.setNavigationBarHidden(true, animated: false)
+
         img1.image = UIImage(named: "9188465425230637911275922235726328076697600N")
         img2.image = UIImage(named: "9213383125230634377942948539378523368849408N")
         img3.image = UIImage(named: "9235840225230627344610312982063520952090624N")
