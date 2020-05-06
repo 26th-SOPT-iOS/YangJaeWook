@@ -24,5 +24,7 @@ iOS파트 YB입니다.
 
 > Assignment links
 
-### [Week1] 
+### [Week1] https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/FirstWeek_Assignment_01/README.md
+
+### [Week2] 
 
