@@ -9,7 +9,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
     @IBOutlet var imgViewHome: UIImageView!
     @IBOutlet var img1: UIImageView!
     @IBOutlet var img2: UIImageView!

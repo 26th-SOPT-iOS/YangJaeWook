@@ -25,26 +25,17 @@ class SignUpViewController: UIViewController {
         signupEmail.layer.cornerRadius = 22
         signupPw.layer.cornerRadius = 22
         btnSignup.layer.cornerRadius = 22
+        
+        navigationController?.setNavigationBarHidden(false, animated: false)
+        // 네비게이션 백버튼 텍스트 삭제
+        navigationController?.navigationBar.backItem?.title = ""
+        // 네비게이션 하단밑줄 제거
+        navigationController?.navigationBar.shadowImage = UIImage()
     }
     
-//    @IBAction func transferData(_ sender: Any) {
-//
-//        guard let receiveViewController = self.storyboard?.instantiateViewController(identifier: "loginViewController") as? LogInViewController else {return}
-//
-//
-//        self.present(receiveViewController, animated: true) {
-//            self.navigationController?.popViewController(animated: false)
-//        }
-//    }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func btnSignupAction(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
     }
-    */
+    
 
 }
