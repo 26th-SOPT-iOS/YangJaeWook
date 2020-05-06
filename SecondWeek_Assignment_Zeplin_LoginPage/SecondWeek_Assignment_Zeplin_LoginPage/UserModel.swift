@@ -16,9 +16,9 @@ final class UserModel {
     }
     
     var model: [User] = [
-       User(username: "zico", password: "1234"),
-       User(username: "dean", password: "5678"),
-       User(username: "penomeco", password: "0101")
+       User(username: "Alice", password: "1234"),
+       User(username: "Bob", password: "5678"),
+       User(username: "Charlie", password: "0101")
     ]
     
     // hasUser 검사 method
