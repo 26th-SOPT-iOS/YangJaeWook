@@ -94,7 +94,7 @@ review
 
 기한 ~05.08, 2020
 
-![스크린샷 2020-05-06 오후 11.42.49](/Users/yangjaeug/Desktop/YangJaeWook/READMEimg/스크린샷 2020-05-06 오후 11.42.49.png)
+<img width="1756" alt="스크린샷 2020-05-06 오후 11 42 49" src="https://user-images.githubusercontent.com/56633607/81191529-15472e00-8ff4-11ea-952a-f4b6ea14148c.png">
 
 ### 2차 과제 02
 
@@ -102,4 +102,4 @@ review
 
 기한 ~05.08, 2020
 
-![스크린샷 2020-05-06 오후 11.44.06](/Users/yangjaeug/Desktop/YangJaeWook/READMEimg/스크린샷 2020-05-06 오후 11.44.06.png)
+<img width="1756" alt="스크린샷 2020-05-06 오후 11 44 06" src="https://user-images.githubusercontent.com/56633607/81191667-3f98eb80-8ff4-11ea-9df9-2f66e1f5ce98.png">
