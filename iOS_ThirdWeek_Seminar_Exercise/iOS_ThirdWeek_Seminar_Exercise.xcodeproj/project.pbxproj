@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1879695E246679D800150F0F /* iOS_ThirdWeek_Seminar_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_ThirdWeek_Seminar_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1879695E246679D800150F0F /* iOS_thirdWeek_Seminar_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_thirdWeek_Seminar_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18796961246679D800150F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18796963246679D800150F0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18796965246679D800150F0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		18796955246679D800150F0F = {
 			isa = PBXGroup;
 			children = (
-				18796960246679D800150F0F /* iOS_ThirdWeek_Seminar_Exercise */,
+				18796960246679D800150F0F /* iOS_thirdWeek_Seminar_Exercise */,
 				1879695F246679D800150F0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +62,12 @@
 		1879695F246679D800150F0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1879695E246679D800150F0F /* iOS_ThirdWeek_Seminar_Exercise.app */,
+				1879695E246679D800150F0F /* iOS_thirdWeek_Seminar_Exercise.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18796960246679D800150F0F /* iOS_ThirdWeek_Seminar_Exercise */ = {
+		18796960246679D800150F0F /* iOS_thirdWeek_Seminar_Exercise */ = {
 			isa = PBXGroup;
 			children = (
 				18796961246679D800150F0F /* AppDelegate.swift */,
@@ -85,7 +85,7 @@
 				18796981246699B700150F0F /* MusicCollectionViewController.swift */,
 				187969852466A1C100150F0F /* musicCell.swift */,
 			);
-			path = iOS_ThirdWeek_Seminar_Exercise;
+			path = iOS_thirdWeek_Seminar_Exercise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +105,7 @@
 			);
 			name = iOS_ThirdWeek_Seminar_Exercise;
 			productName = iOS_ThirdWeek_Seminar_Exercise;
-			productReference = 1879695E246679D800150F0F /* iOS_ThirdWeek_Seminar_Exercise.app */;
+			productReference = 1879695E246679D800150F0F /* iOS_thirdWeek_Seminar_Exercise.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18796959246679D800150F0F /* Build configuration list for PBXProject "iOS_ThirdWeek_Seminar_Exercise" */;
+			buildConfigurationList = 18796959246679D800150F0F /* Build configuration list for PBXProject "iOS_thirdWeek_Seminar_Exercise" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -313,13 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS_ThirdWeek_Seminar_Exercise/Info.plist;
+				INFOPLIST_FILE = iOS_thirdWeek_Seminar_Exercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Jaeuk.iOS-ThirdWeek-Seminar-Exercise";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaeuk.iOS-thirdWeek-Seminar-Exercise";
+				PRODUCT_NAME = iOS_thirdWeek_Seminar_Exercise;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -330,13 +330,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS_ThirdWeek_Seminar_Exercise/Info.plist;
+				INFOPLIST_FILE = iOS_thirdWeek_Seminar_Exercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Jaeuk.iOS-ThirdWeek-Seminar-Exercise";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaeuk.iOS-thirdWeek-Seminar-Exercise";
+				PRODUCT_NAME = iOS_thirdWeek_Seminar_Exercise;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18796959246679D800150F0F /* Build configuration list for PBXProject "iOS_ThirdWeek_Seminar_Exercise" */ = {
+		18796959246679D800150F0F /* Build configuration list for PBXProject "iOS_thirdWeek_Seminar_Exercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18796970246679D900150F0F /* Debug */,
