@@ -18,8 +18,8 @@
 		1879697C246687B100150F0F /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879697B246687B000150F0F /* WeatherCell.swift */; };
 		1879697E246689A800150F0F /* DateInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879697D246689A800150F0F /* DateInformation.swift */; };
 		187969802466951C00150F0F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879697F2466951C00150F0F /* DetailViewController.swift */; };
-		18796982246699B700150F0F /* MusicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18796981246699B700150F0F /* MusicCollectionViewController.swift */; };
 		187969862466A1C100150F0F /* musicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969852466A1C100150F0F /* musicCell.swift */; };
+		187969B2246AFC0A00150F0F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969B1246AFC0A00150F0F /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 		1879697B246687B000150F0F /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		1879697D246689A800150F0F /* DateInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInformation.swift; sourceTree = "<group>"; };
 		1879697F2466951C00150F0F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		18796981246699B700150F0F /* MusicCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewController.swift; sourceTree = "<group>"; };
 		187969852466A1C100150F0F /* musicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicCell.swift; sourceTree = "<group>"; };
+		187969B1246AFC0A00150F0F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 				1879697B246687B000150F0F /* WeatherCell.swift */,
 				1879697D246689A800150F0F /* DateInformation.swift */,
 				1879697F2466951C00150F0F /* DetailViewController.swift */,
-				18796981246699B700150F0F /* MusicCollectionViewController.swift */,
 				187969852466A1C100150F0F /* musicCell.swift */,
+				187969B1246AFC0A00150F0F /* CollectionViewController.swift */,
 			);
 			path = iOS_thirdWeek_Seminar_Exercise;
 			sourceTree = "<group>";
@@ -159,11 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18796982246699B700150F0F /* MusicCollectionViewController.swift in Sources */,
 				18796966246679D800150F0F /* ViewController.swift in Sources */,
 				18796962246679D800150F0F /* AppDelegate.swift in Sources */,
 				1879697C246687B100150F0F /* WeatherCell.swift in Sources */,
 				18796964246679D800150F0F /* SceneDelegate.swift in Sources */,
+				187969B2246AFC0A00150F0F /* CollectionViewController.swift in Sources */,
 				1879697A246685D500150F0F /* TableViewController.swift in Sources */,
 				1879697824667C1000150F0F /* Music.swift in Sources */,
 				1879697E246689A800150F0F /* DateInformation.swift in Sources */,

@@ -38,3 +38,4 @@
 
 ### [Week2](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
 
+# Jaeuk

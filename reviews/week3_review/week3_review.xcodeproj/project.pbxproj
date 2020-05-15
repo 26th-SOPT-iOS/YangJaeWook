@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		187969942468170400150F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969932468170400150F0F /* AppDelegate.swift */; };
 		187969962468170400150F0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969952468170400150F0F /* SceneDelegate.swift */; };
-		187969982468170400150F0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969972468170400150F0F /* ViewController.swift */; };
+		187969982468170400150F0F /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969972468170400150F0F /* PickerViewController.swift */; };
 		1879699B2468170400150F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187969992468170400150F0F /* Main.storyboard */; };
 		1879699D2468170600150F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1879699C2468170600150F0F /* Assets.xcassets */; };
 		187969A02468170600150F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1879699E2468170600150F0F /* LaunchScreen.storyboard */; };
 		187969A8246818BC00150F0F /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969A7246818BC00150F0F /* Music.swift */; };
+		187969AA246ADE3600150F0F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969A9246ADE3600150F0F /* TableViewController.swift */; };
+		187969AC246AE05000150F0F /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969AB246AE05000150F0F /* WeatherCell.swift */; };
+		187969AE246AE1B000150F0F /* DateInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969AD246AE1B000150F0F /* DateInformation.swift */; };
+		187969B0246AF94D00150F0F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187969AF246AF94D00150F0F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		187969902468170400150F0F /* week3_review.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week3_review.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187969932468170400150F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187969952468170400150F0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		187969972468170400150F0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187969972468170400150F0F /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		1879699A2468170400150F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1879699C2468170600150F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1879699F2468170600150F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187969A12468170600150F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187969A7246818BC00150F0F /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		187969A9246ADE3600150F0F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		187969AB246AE05000150F0F /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		187969AD246AE1B000150F0F /* DateInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInformation.swift; sourceTree = "<group>"; };
+		187969AF246AF94D00150F0F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,16 @@
 			children = (
 				187969932468170400150F0F /* AppDelegate.swift */,
 				187969952468170400150F0F /* SceneDelegate.swift */,
-				187969972468170400150F0F /* ViewController.swift */,
+				187969972468170400150F0F /* PickerViewController.swift */,
 				187969992468170400150F0F /* Main.storyboard */,
 				1879699C2468170600150F0F /* Assets.xcassets */,
 				1879699E2468170600150F0F /* LaunchScreen.storyboard */,
 				187969A12468170600150F0F /* Info.plist */,
 				187969A7246818BC00150F0F /* Music.swift */,
+				187969A9246ADE3600150F0F /* TableViewController.swift */,
+				187969AB246AE05000150F0F /* WeatherCell.swift */,
+				187969AD246AE1B000150F0F /* DateInformation.swift */,
+				187969AF246AF94D00150F0F /* DetailViewController.swift */,
 			);
 			path = week3_review;
 			sourceTree = "<group>";
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187969982468170400150F0F /* ViewController.swift in Sources */,
+				187969982468170400150F0F /* PickerViewController.swift in Sources */,
 				187969942468170400150F0F /* AppDelegate.swift in Sources */,
+				187969AC246AE05000150F0F /* WeatherCell.swift in Sources */,
 				187969962468170400150F0F /* SceneDelegate.swift in Sources */,
+				187969AA246ADE3600150F0F /* TableViewController.swift in Sources */,
 				187969A8246818BC00150F0F /* Music.swift in Sources */,
+				187969AE246AE1B000150F0F /* DateInformation.swift in Sources */,
+				187969B0246AF94D00150F0F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
