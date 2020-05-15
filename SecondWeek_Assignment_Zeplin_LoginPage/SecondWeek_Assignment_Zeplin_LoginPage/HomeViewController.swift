@@ -24,14 +24,14 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         navigationController?.setNavigationBarHidden(true, animated: false)
 
-        img1.image = UIImage(named: "9188465425230637911275922235726328076697600N")
-        img2.image = UIImage(named: "9213383125230634377942948539378523368849408N")
-        img3.image = UIImage(named: "9235840225230627344610312982063520952090624N")
-        img4.image = UIImage(named: "9229480325230625777943802058411231781322752N")
-        img5.image = UIImage(named: "9213470125230618377944548520091676373417984N")
-        img6.image = UIImage(named: "9298934625230618844611168856475911587889152N")
-        img7.image = UIImage(named: "9188465425230637911275922235726328076697600N")
-        img8.image = UIImage(named: "9213383125230634377942948539378523368849408N")
+        img1.image = UIImage(named: "p1")
+        img2.image = UIImage(named: "p2")
+        img3.image = UIImage(named: "p3")
+        img4.image = UIImage(named: "p4")
+        img5.image = UIImage(named: "p5")
+        img6.image = UIImage(named: "p6")
+        img7.image = UIImage(named: "p7")
+        img8.image = UIImage(named: "p8")
         // Do any additional setup after loading the view.
     }
     

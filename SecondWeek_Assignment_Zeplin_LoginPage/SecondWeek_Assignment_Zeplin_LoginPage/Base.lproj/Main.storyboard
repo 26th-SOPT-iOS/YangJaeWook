@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eWZ-YO-AzM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9e6-lx-YmG">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -160,7 +160,7 @@
             </objects>
             <point key="canvasLocation" x="-58.399999999999999" y="137.4384236453202"/>
         </scene>
-        <!--Home View Controller-->
+        <!--홈-->
         <scene sceneID="uZ5-qb-Pl2">
             <objects>
                 <viewController storyboardIdentifier="homeViewController" wantsFullScreenLayout="YES" id="UcB-8i-UEM" customClass="HomeViewController" customModule="SecondWeek_Assignment_Zeplin_LoginPage" customModuleProvider="target" sceneMemberID="viewController">
@@ -169,15 +169,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1eq-55-FHx">
-                                <rect key="frame" x="0.0" y="44" width="375" height="956"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="907"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xis-Ep-zlC">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1114"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oursoptBgImg" translatesAutoresizingMaskIntoConstraints="NO" id="sbg-gC-5K5">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oursoptBgImg" translatesAutoresizingMaskIntoConstraints="NO" id="sbg-gC-5K5">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="Sec-5G-Q0N"/>
+                                                    <constraint firstAttribute="width" secondItem="sbg-gC-5K5" secondAttribute="height" multiplier="15:8" id="nYh-Ld-AwW"/>
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="vTm-Bv-cmP">
@@ -280,6 +281,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vsg-75-ltF"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="홈" id="zQL-m4-sEI"/>
                     <size key="freeformSize" width="375" height="1000"/>
                     <connections>
                         <outlet property="img1" destination="ugK-Tb-enq" id="jTN-uF-8m7"/>
@@ -295,11 +297,119 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="le0-Eg-tKT" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1671.2" y="-271.18226600985224"/>
+            <point key="canvasLocation" x="2137" y="-202"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dOz-Ap-xA9">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="9e6-lx-YmG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q60-9F-pJM">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="UcB-8i-UEM" kind="relationship" relationship="viewControllers" id="gxu-a4-l6d"/>
+                        <segue destination="Asp-wd-xC9" kind="relationship" relationship="viewControllers" id="Gcr-aa-zGW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rnI-Nw-6bc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2518" y="-1075"/>
+        </scene>
+        <!--item-->
+        <scene sceneID="NNg-UX-Usg">
+            <objects>
+                <viewController id="Asp-wd-xC9" userLabel="item" customClass="ChatViewController" customModule="SecondWeek_Assignment_Zeplin_LoginPage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T86-uT-SXo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="친구" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55U-ms-sCj">
+                                <rect key="frame" x="16.000000000000004" y="57.000000000000007" width="38.333333333333343" height="26.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p1" translatesAutoresizingMaskIntoConstraints="NO" id="o1L-9A-Ksn">
+                                <rect key="frame" x="16" y="100.33333333333333" width="50" height="49.999999999999986"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="양재욱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckn-lT-4d5">
+                                <rect key="frame" x="86" y="119.66666666666669" width="44.333333333333343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7Px-6P-Fkh">
+                                <rect key="frame" x="0.0" y="179" width="375" height="633"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendsCell" id="6Zo-FD-2hx" customClass="FriendsCell" customModule="SecondWeek_Assignment_Zeplin_LoginPage" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Zo-FD-2hx" id="7lV-pI-aD6">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9213383125230634377942948539378523368849408N" translatesAutoresizingMaskIntoConstraints="NO" id="gOT-gq-8jn">
+                                                    <rect key="frame" x="16" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pl0-7w-40B">
+                                                    <rect key="frame" x="98" y="11" width="45" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocO-4i-xSl">
+                                                    <rect key="frame" x="318" y="11" width="48" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="friendsImageView" destination="gOT-gq-8jn" id="zgD-mZ-GnO"/>
+                                            <outlet property="lblName" destination="Pl0-7w-40B" id="vAu-Tb-cRw"/>
+                                            <outlet property="lblStatus" destination="ocO-4i-xSl" id="eva-gi-J5z"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="o1L-9A-Ksn" firstAttribute="leading" secondItem="L7r-As-sAH" secondAttribute="leading" constant="16" id="5id-2U-hDi"/>
+                            <constraint firstItem="55U-ms-sCj" firstAttribute="top" secondItem="T86-uT-SXo" secondAttribute="top" constant="57" id="EfV-XH-hsd"/>
+                            <constraint firstItem="o1L-9A-Ksn" firstAttribute="top" secondItem="55U-ms-sCj" secondAttribute="bottom" constant="17" id="G47-7e-Kl8"/>
+                            <constraint firstItem="55U-ms-sCj" firstAttribute="leading" secondItem="L7r-As-sAH" secondAttribute="leading" constant="16" id="JsL-zl-etF"/>
+                            <constraint firstAttribute="bottom" secondItem="7Px-6P-Fkh" secondAttribute="bottom" id="P7o-Iu-biR"/>
+                            <constraint firstItem="ckn-lT-4d5" firstAttribute="leading" secondItem="o1L-9A-Ksn" secondAttribute="trailing" constant="20" id="Rua-2D-bgx"/>
+                            <constraint firstItem="7Px-6P-Fkh" firstAttribute="top" secondItem="ckn-lT-4d5" secondAttribute="bottom" constant="38.329999999999998" id="Ys3-eZ-2f3"/>
+                            <constraint firstItem="7Px-6P-Fkh" firstAttribute="top" secondItem="o1L-9A-Ksn" secondAttribute="bottom" constant="28.670000000000002" id="ZZo-BJ-Pq8"/>
+                            <constraint firstItem="7Px-6P-Fkh" firstAttribute="leading" secondItem="L7r-As-sAH" secondAttribute="leading" id="wIz-7Z-a16"/>
+                            <constraint firstItem="7Px-6P-Fkh" firstAttribute="trailing" secondItem="L7r-As-sAH" secondAttribute="trailing" id="xdB-9W-4PS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="L7r-As-sAH"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="친구" id="TGi-Y7-QY9"/>
+                    <connections>
+                        <outlet property="chatTableView" destination="7Px-6P-Fkh" id="L70-AP-a53"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xUQ-Sx-XqC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2845.5999999999999" y="-271.18226600985224"/>
         </scene>
     </scenes>
     <resources>
+        <image name="9213383125230634377942948539378523368849408N" width="148" height="198"/>
         <image name="oursoptBgImg" width="375" height="210"/>
+        <image name="p1" width="50" height="50"/>
         <image name="soptJoinLogo" width="133" height="44"/>
         <image name="soptLogo" width="203" height="68"/>
     </resources>

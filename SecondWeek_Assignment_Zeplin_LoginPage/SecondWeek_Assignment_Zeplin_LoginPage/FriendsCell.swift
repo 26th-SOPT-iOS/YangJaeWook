@@ -10,6 +10,12 @@ import UIKit
 
 class FriendsCell: UITableViewCell {
 
+    static let identifier:String = "FriendsCell"
+    
+    @IBOutlet var friendsImageView: UIImageView!
+    @IBOutlet var lblName: UILabel!
+    @IBOutlet var lblStatus: UILabel!
+   
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +27,9 @@ class FriendsCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    func setFriendInformation(friendImageName: String, name:String, status:String){
+        friendsImageView.image = UIImage(named: friendImageName)
+        lblName.text = name
+        lblStatus.text = status
+    }
 }
