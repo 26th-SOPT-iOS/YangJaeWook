@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SecondWeek_Assignment_Zeplin_LoginPage' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SecondWeek_Assignment_Zeplin_LoginPage
+	pod 'Alamofire', '~> 4.8.2'
+	pod 'Kingfisher', '~> 5.8'
+end

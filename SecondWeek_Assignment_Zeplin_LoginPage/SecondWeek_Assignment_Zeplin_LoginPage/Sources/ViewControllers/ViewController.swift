@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var userModel = UserModel()
+    //var userModel = UserModel()
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet var idTextField: UITextField!
     @IBOutlet var pwTextField: UITextField!
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         pwTextField.layer.cornerRadius = 22;
         btnLogin.layer.cornerRadius = 24;
     }
-
+    
     func setNavigationColor() {
         // 네비게이션 영역 그라데이션색
         navigationController?.navigationBar.tintColor = .blue
@@ -38,23 +38,30 @@ class ViewController: UIViewController {
     }
     
     @IBAction func loginAction(_ sender: Any) {
-        let alert = UIAlertController(title: "오류", message: "이메일 또는 비밀번호를 확인해주세요.", preferredStyle: UIAlertController.Style.alert)
-        let defaultAction = UIAlertAction(title: "OK", style: .destructive, handler : nil)
-
-        // 옵셔널 바인딩 & 예외 처리 : Textfield가 빈문자열이 아니고, nil이 아닐 때
-        guard let username = idTextField.text, !username.isEmpty else { return }
-        guard let password = pwTextField.text, !password.isEmpty else { return }
         
-        // Model이 해당 유저를 가지고 있는지 검사
-        let loginSuccess: Bool = userModel.hasUser(name: username, pwd: password)
-        if loginSuccess {
-            let home = self.storyboard?.instantiateViewController(withIdentifier: "homeViewController")
-            self.navigationController?.pushViewController(home!, animated: true)
-        }else {
-            alert.addAction(defaultAction)
-            present(alert, animated: true, completion: nil)
-            }
+        guard let inputID = idTextField.text else { return }
+        guard let inputPWD = pwTextField.text else { return }
         
+        LoginService.shared.login(id: inputID, pwd: inputPWD) { networkResult in
+            switch networkResult {
+                
+            case .success(let token):
+                guard let token = token as? String else { return }
+                UserDefaults.standard.set(token, forKey: "token")
+                guard let tabbarController = self.storyboard?.instantiateViewController(identifier:"customTabbarController") as? UITabBarController else { return }
+                tabbarController.modalPresentationStyle = .fullScreen
+                self.present(tabbarController, animated: true, completion: nil)
+                
+            case .requestErr(let message):
+                guard let message = message as? String else { return }
+                let alertViewController = UIAlertController(title: "로그인 실패", message: message, preferredStyle: .alert)
+                let action = UIAlertAction(title: "확인", style: .cancel, handler: nil)
+                alertViewController.addAction(action)
+                self.present(alertViewController, animated: true, completion: nil)
+                
+            case .pathErr: print("path")
+            case .serverErr: print("serverErr") case .networkFail: print("networkFail") }
+        }
     }
     
     @IBAction func btnSignup(_ sender: Any) {
@@ -62,7 +69,7 @@ class ViewController: UIViewController {
         
         navigationController?.pushViewController(nextVC, animated: true)
     }
-
+    
 }
 
 

@@ -3,13 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1863F893246EB8E6006802AD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F892246EB8E6006802AD /* ChatViewController.swift */; };
 		1863F895246EB93D006802AD /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F894246EB93D006802AD /* FriendsCell.swift */; };
 		1863F897246EB9FB006802AD /* FriendsInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F896246EB9FB006802AD /* FriendsInformation.swift */; };
+		1863F89D246FBD49006802AD /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F89C246FBD49006802AD /* APIConstants.swift */; };
+		1863F8A2246FC55E006802AD /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F8A1246FC55E006802AD /* NetworkResult.swift */; };
+		1863F8A4246FC641006802AD /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F8A3246FC641006802AD /* LoginService.swift */; };
+		1863F8AA2472814A006802AD /* SigninData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F8A92472814A006802AD /* SigninData.swift */; };
+		1863F8AC24728970006802AD /* SignupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F8AB24728970006802AD /* SignupData.swift */; };
+		1863F8AE247289B7006802AD /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F8AD247289B7006802AD /* SignupService.swift */; };
 		1881496A24615AF900672E13 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881496924615AF900672E13 /* UserModel.swift */; };
 		1881496C2461617600672E13 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881496B2461617600672E13 /* HomeViewController.swift */; };
 		18CF91D6244AE5850049B9B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF91D5244AE5850049B9B9 /* AppDelegate.swift */; };
@@ -19,12 +25,19 @@
 		18CF91DF244AE5870049B9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CF91DE244AE5870049B9B9 /* Assets.xcassets */; };
 		18CF91E2244AE5870049B9B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CF91E0244AE5870049B9B9 /* LaunchScreen.storyboard */; };
 		18CF91EC244AF2F40049B9B9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF91EB244AF2F40049B9B9 /* SignUpViewController.swift */; };
+		FC12E4F18001F0921D2DA23F /* Pods_SecondWeek_Assignment_Zeplin_LoginPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4D20E1A5FFCA2A22078D0E /* Pods_SecondWeek_Assignment_Zeplin_LoginPage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1863F892246EB8E6006802AD /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		1863F894246EB93D006802AD /* FriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
 		1863F896246EB9FB006802AD /* FriendsInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsInformation.swift; sourceTree = "<group>"; };
+		1863F89C246FBD49006802AD /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		1863F8A1246FC55E006802AD /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		1863F8A3246FC641006802AD /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		1863F8A92472814A006802AD /* SigninData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninData.swift; sourceTree = "<group>"; };
+		1863F8AB24728970006802AD /* SignupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupData.swift; sourceTree = "<group>"; };
+		1863F8AD247289B7006802AD /* SignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupService.swift; sourceTree = "<group>"; };
 		1881496924615AF900672E13 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		1881496B2461617600672E13 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		18CF91D5244AE5850049B9B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +49,9 @@
 		18CF91E3244AE5870049B9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CF91EB244AF2F40049B9B9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		18F62673245849A800F86EA8 /* SecondWeek_Assignment_Zeplin_LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondWeek_Assignment_Zeplin_LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FBAD3EE518A9FF9F1ECD91 /* Pods-SecondWeek_Assignment_Zeplin_LoginPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondWeek_Assignment_Zeplin_LoginPage.release.xcconfig"; path = "Target Support Files/Pods-SecondWeek_Assignment_Zeplin_LoginPage/Pods-SecondWeek_Assignment_Zeplin_LoginPage.release.xcconfig"; sourceTree = "<group>"; };
+		DD4D20E1A5FFCA2A22078D0E /* Pods_SecondWeek_Assignment_Zeplin_LoginPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecondWeek_Assignment_Zeplin_LoginPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA20B574E52D5FD268700400 /* Pods-SecondWeek_Assignment_Zeplin_LoginPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondWeek_Assignment_Zeplin_LoginPage.debug.xcconfig"; path = "Target Support Files/Pods-SecondWeek_Assignment_Zeplin_LoginPage/Pods-SecondWeek_Assignment_Zeplin_LoginPage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,38 +59,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC12E4F18001F0921D2DA23F /* Pods_SecondWeek_Assignment_Zeplin_LoginPage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F52F5E8EF7229D4B99D2EC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD4D20E1A5FFCA2A22078D0E /* Pods_SecondWeek_Assignment_Zeplin_LoginPage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1863F898246FACD1006802AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1863F89E246FBD71006802AD /* API */,
+				1863F899246FACF5006802AD /* Storyboards */,
+				18CF91DE244AE5870049B9B9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1863F899246FACF5006802AD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				18CF91DB244AE5850049B9B9 /* Main.storyboard */,
+				18CF91E0244AE5870049B9B9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1863F89A246FAD2D006802AD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1863F89B246FAD56006802AD /* ViewControllers */,
+				18CF91D5244AE5850049B9B9 /* AppDelegate.swift */,
+				18CF91D7244AE5850049B9B9 /* SceneDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1863F89B246FAD56006802AD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18CF91D9244AE5850049B9B9 /* ViewController.swift */,
+				18CF91EB244AF2F40049B9B9 /* SignUpViewController.swift */,
+				1881496B2461617600672E13 /* HomeViewController.swift */,
+				1863F892246EB8E6006802AD /* ChatViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1863F89E246FBD71006802AD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1863F8A1246FC55E006802AD /* NetworkResult.swift */,
+				1863F89C246FBD49006802AD /* APIConstants.swift */,
+				1863F8A3246FC641006802AD /* LoginService.swift */,
+				1863F8A92472814A006802AD /* SigninData.swift */,
+				1863F8AB24728970006802AD /* SignupData.swift */,
+				1863F8AD247289B7006802AD /* SignupService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		18CF91C9244AE5850049B9B9 = {
 			isa = PBXGroup;
 			children = (
 				18CF91D4244AE5850049B9B9 /* SecondWeek_Assignment_Zeplin_LoginPage */,
 				18F62673245849A800F86EA8 /* SecondWeek_Assignment_Zeplin_LoginPage.app */,
+				DF9A2FD8364BCE76D83DD775 /* Pods */,
+				0F52F5E8EF7229D4B99D2EC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		18CF91D4244AE5850049B9B9 /* SecondWeek_Assignment_Zeplin_LoginPage */ = {
 			isa = PBXGroup;
 			children = (
-				18CF91D5244AE5850049B9B9 /* AppDelegate.swift */,
-				18CF91D7244AE5850049B9B9 /* SceneDelegate.swift */,
-				18CF91D9244AE5850049B9B9 /* ViewController.swift */,
-				18CF91DB244AE5850049B9B9 /* Main.storyboard */,
-				18CF91DE244AE5870049B9B9 /* Assets.xcassets */,
-				18CF91E0244AE5870049B9B9 /* LaunchScreen.storyboard */,
+				1863F89A246FAD2D006802AD /* Sources */,
+				1863F898246FACD1006802AD /* Resources */,
 				18CF91E3244AE5870049B9B9 /* Info.plist */,
-				18CF91EB244AF2F40049B9B9 /* SignUpViewController.swift */,
 				1881496924615AF900672E13 /* UserModel.swift */,
-				1881496B2461617600672E13 /* HomeViewController.swift */,
-				1863F892246EB8E6006802AD /* ChatViewController.swift */,
 				1863F894246EB93D006802AD /* FriendsCell.swift */,
 				1863F896246EB9FB006802AD /* FriendsInformation.swift */,
 			);
 			path = SecondWeek_Assignment_Zeplin_LoginPage;
+			sourceTree = "<group>";
+		};
+		DF9A2FD8364BCE76D83DD775 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA20B574E52D5FD268700400 /* Pods-SecondWeek_Assignment_Zeplin_LoginPage.debug.xcconfig */,
+				48FBAD3EE518A9FF9F1ECD91 /* Pods-SecondWeek_Assignment_Zeplin_LoginPage.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18CF91E6244AE5870049B9B9 /* Build configuration list for PBXNativeTarget "SecondWeek_Assignment_Zeplin_LoginPage" */;
 			buildPhases = (
+				AF9599D2869C4AFD498CE389 /* [CP] Check Pods Manifest.lock */,
 				18CF91CE244AE5850049B9B9 /* Sources */,
 				18CF91CF244AE5850049B9B9 /* Frameworks */,
 				18CF91D0244AE5850049B9B9 /* Resources */,
+				87F971DE46723FD1332DFFF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,20 +227,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		87F971DE46723FD1332DFFF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecondWeek_Assignment_Zeplin_LoginPage/Pods-SecondWeek_Assignment_Zeplin_LoginPage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecondWeek_Assignment_Zeplin_LoginPage/Pods-SecondWeek_Assignment_Zeplin_LoginPage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SecondWeek_Assignment_Zeplin_LoginPage/Pods-SecondWeek_Assignment_Zeplin_LoginPage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9599D2869C4AFD498CE389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecondWeek_Assignment_Zeplin_LoginPage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18CF91CE244AE5850049B9B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18CF91DA244AE5850049B9B9 /* ViewController.swift in Sources */,
+				1863F8AC24728970006802AD /* SignupData.swift in Sources */,
+				1863F8A4246FC641006802AD /* LoginService.swift in Sources */,
+				1863F8AE247289B7006802AD /* SignupService.swift in Sources */,
 				18CF91D6244AE5850049B9B9 /* AppDelegate.swift in Sources */,
 				18CF91EC244AF2F40049B9B9 /* SignUpViewController.swift in Sources */,
+				1863F8A2246FC55E006802AD /* NetworkResult.swift in Sources */,
 				1863F893246EB8E6006802AD /* ChatViewController.swift in Sources */,
 				1881496A24615AF900672E13 /* UserModel.swift in Sources */,
 				1863F897246EB9FB006802AD /* FriendsInformation.swift in Sources */,
+				1863F89D246FBD49006802AD /* APIConstants.swift in Sources */,
 				18CF91D8244AE5850049B9B9 /* SceneDelegate.swift in Sources */,
 				1881496C2461617600672E13 /* HomeViewController.swift in Sources */,
 				1863F895246EB93D006802AD /* FriendsCell.swift in Sources */,
+				1863F8AA2472814A006802AD /* SigninData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +430,7 @@
 		};
 		18CF91E7244AE5870049B9B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA20B574E52D5FD268700400 /* Pods-SecondWeek_Assignment_Zeplin_LoginPage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +448,7 @@
 		};
 		18CF91E8244AE5870049B9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FBAD3EE518A9FF9F1ECD91 /* Pods-SecondWeek_Assignment_Zeplin_LoginPage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
