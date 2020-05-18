@@ -135,7 +135,6 @@ final class UserModel {
     }
 
 }
-
 ```
 
 
@@ -162,5 +161,127 @@ final class UserModel {
             }
         
     }
+```
+
+
+
+### 3차 과제
+
+####  Cocoapods, Network, Login, Signup
+
+> 기한 ~05.22, 2020
+
+<div>
+  <img src="./READMEimg/week3_images/third-week-01.png" width="250" height="450">
+  <img src="./READMEimg/week3_images/third-week-02.png" width="250" height="450">
+  <img src="./READMEimg/week3_images/third-week-03.png" width="250" height="450">  
+  <img src="./READMEimg/week3_images/third-week-04.png" width="250" height="450">
+  <img src="./READMEimg/week3_images/third-week-05.png" width="250" height="450">
+</div>
+
+
+
+> SignupData : 토큰이 필요없기 때문에 토큰 삭제
+>
+> > 받은 데이터를 디코딩해서 저장한다.
+
+```swift
+//
+//  SignupData.swift
+//  SecondWeek_Assignment_Zeplin_LoginPage
+//
+//  Created by 양재욱 on 2020/05/18.
+//  Copyright © 2020 양재욱. All rights reserved.
+//
+
+import Foundation
+
+struct SignupData: Codable{
+    var status: Int
+    var success: Bool
+    var message: String
+    
+    enum CodingKeys: String, CodingKey{
+        case status = "status"
+        case success = "success"
+        case message = "message"
+    }
+    
+    init(from decoder: Decoder) throws{
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        status = (try? values.decode(Int.self, forKey: .status)) ?? -1
+        success = (try? values.decode(Bool.self, forKey: .success)) ?? false
+        message = (try? values.decode(String.self, forKey: .message)) ?? ""
+    }
+    
+}
+```
+
+
+
+> SignupService
+>
+> > Alamofire를 사용해서 http통신으로 request를 보내고 response를 받는다.
+
+```swift
+//
+//  SignupService.swift
+//  SecondWeek_Assignment_Zeplin_LoginPage
+//
+//  Created by 양재욱 on 2020/05/18.
+//  Copyright © 2020 양재욱. All rights reserved.
+//
+
+import Foundation
+import Alamofire
+
+struct SignupService {
+    static let shared = SignupService()
+    
+    private func makeParameter(_ id: String, _ pwd: String, _ name: String, _ email: String, _ phone: String) -> Parameters{
+        return ["id": id, "password": pwd, "name": name, "email": email, "phone": phone]
+    }
+
+    func signup(id: String, pwd: String, name: String, email: String, phone: String, completion: @escaping (NetworkResult<Any>) -> Void) {
+        let header: HTTPHeaders = ["Content-Type": "application/json"]
+        let dataRequest = Alamofire.request(APIConstants.signupURL, method: .post, parameters: makeParameter(id, pwd, name, email, phone), encoding: JSONEncoding.default, headers: header)
+        // dataResponse = SUCCESS
+        // string이 넘어온다.
+        dataRequest.responseData { dataResponse in
+            switch dataResponse.result {
+            case .success:
+                guard let statusCode = dataResponse.response?.statusCode else { return }
+                guard let value = dataResponse.result.value else { return }
+                let networkResult = self.judge(by: statusCode, value)
+                completion(networkResult)
+            case .failure: completion(.networkFail)
+            }
+        }
+    }
+    
+    private func judge(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
+        switch statusCode {
+        case 200: return isSignup(by: data)
+        case 400: return .pathErr
+        case 500: return .serverErr default: return .networkFail
+        }
+    }
+    
+    private func isSignup(by data: Data) -> NetworkResult<Any> {
+        let decoder = JSONDecoder()
+        
+        guard let decodedData = try? decoder.decode(SignupData.self, from: data) else { return .pathErr }
+        // decodedData 값을 print문으로 확인해준다.
+        print(decodedData.status, "\n", decodedData.success, "\n", decodedData.message, "\n")
+        if decodedData.success{
+          	// networkResult를 리턴한다.
+            return .success(data)
+        }
+        else{
+            return .requestErr(decodedData.message)
+        }
+    }
+}
+
 ```
 
