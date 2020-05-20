@@ -37,3 +37,5 @@
 ### [Week1](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/FirstWeek_Assignment_01/README.md)
 
 ### [Week2](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
+
+### [Week3](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
