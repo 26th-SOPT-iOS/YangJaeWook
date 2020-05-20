@@ -46,6 +46,7 @@ struct SignupService {
         
         guard let decodedData = try? decoder.decode(SignupData.self, from: data) else { return .pathErr }
         
+        print(decodedData.status, "\n", decodedData.success, "\n", decodedData.message, "\n")
         if decodedData.success{
             return .success(data)
         }
