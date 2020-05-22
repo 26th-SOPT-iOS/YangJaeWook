@@ -173,11 +173,14 @@ final class UserModel {
 
 <div>
   <img src="./READMEimg/week3_images/third-week-01.png" width="250" height="450">
-  <img src="./READMEimg/week3_images/third-week-02.png" width="250" height="450">
+  <img src="./READMEimg/week3_images/third-week-02.png" width="500" height="300">
   <img src="./READMEimg/week3_images/third-week-03.png" width="250" height="450">  
   <img src="./READMEimg/week3_images/third-week-04.png" width="250" height="450">
   <img src="./READMEimg/week3_images/third-week-05.png" width="250" height="450">
 </div>
+
+
+
 
 
 
