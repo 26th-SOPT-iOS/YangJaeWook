@@ -82,8 +82,11 @@
 
 ### [Week1 (4/18)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/FirstWeek_Assignment_01/README.md)
 
-### [Week2 9 (4/25)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
+### [Week2 (4/25)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
 
 ### [Week3 (5/9)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
 
-### [Week4 (5/16)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
+### [Week4 (5/16)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Zeplin_LoginPage/README.md)
+
+### [Week5 (5/23)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Zeplin_LoginPage/README.md)
+
