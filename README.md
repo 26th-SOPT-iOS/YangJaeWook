@@ -9,33 +9,81 @@
 
 > #### 목차
 
-+ ### 1차 과제
+- ### 1주차
 
-  + #### 네비게이션을 이용한 화면 이동
+  - ### 세미나
 
-  + #### vc간 이동 및 데이터 전달
+    - Xcode, View 전환 및 데이터 전달
 
-+ ### 2차 과제
+  - ### 과제
 
-  + #### 계산기
+    - 네비게이션을 이용한 화면 이동
+    - SOPT 로그인, 회원가입 UI 구현 & 가입자 정보 데이터 트랜스퍼
 
-  + #### Zeplin을 활용해 AutoLayout 잡기
+- ### 2주차
 
-+ ### 3차 과제 
+  - ### 세미나
 
-+ ### 4차 과제
+    - AutoLayout, StackView, ScrollView
 
-+ ### 5차 과제
+  - ### 과제
 
-+ ### 6차 과제
+    - StackView를 활용한 계산기
+    - Zeplin 참고 SOPT 로그인 화면 오토레이아웃 + *ScrollView*
 
-+ ### 7차 과제
+- ### 3주차
+
+  - ### 세미나
+
+    - Delegate & Protocol, UIPickerVIew, UITableView, UICollectionView
+
+  - ### 과제
+
+    - UITableVIew사용하여 카카오톡 채팅화면 구현하기 + *Swipe to Delete, UIActionSheet*
+
+- ### 4주차 
+
+  - ### 세미나
+
+    - Cocoapods & Network 통신
+
+  - ### 과제
+
+    - 회원가입 실습 + *자동로그인*
+
+- ### 5주차
+
+  - ### 세미나
+
+    - 디자인 + 클라이언트 합동 세미나
+
+  - ### 과제
+
+    - 디자인 뷰 구현하기
+
+- ### 6주차
+
+  - ### 세미나
+
+    - 서버 + 클라이언트 합동 세미나
+
+  - ### 과제
+
+    -  디자이너의 뷰에 서버와 통신 적용시키기
+
+- ###  7주차
+
+  - ### 세미나
+
+  - ### 과제
 <hr/>
 
 > Assignment links
 
-### [Week1](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/FirstWeek_Assignment_01/README.md)
+### [Week1 (4/18)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/FirstWeek_Assignment_01/README.md)
 
-### [Week2](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
+### [Week2 9 (4/25)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
 
-### [Week3](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
+### [Week3 (5/9)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
+
+### [Week4 (5/16)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Calculator/README.md)
