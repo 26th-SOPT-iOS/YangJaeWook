@@ -88,5 +88,5 @@
 
 ### [Week4 (5/16)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Zeplin_LoginPage/README.md)
 
-### [Week5 (5/23)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/SecondWeek_Assignment_Zeplin_LoginPage/README.md)
+### [Week5 (5/23)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/5th-iOS/README.md)
 
