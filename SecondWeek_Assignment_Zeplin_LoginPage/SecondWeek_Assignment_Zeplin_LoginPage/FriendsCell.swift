@@ -8,14 +8,21 @@
 
 import UIKit
 
+protocol ButtonDelegate {
+    func onClickCellButton(in index: Int)
+}
+
 class FriendsCell: UITableViewCell {
 
     static let identifier:String = "FriendsCell"
     
-    @IBOutlet var friendsImageView: UIImageView!
+    @IBOutlet weak var btnProfile: UIButton!
     @IBOutlet var lblName: UILabel!
     @IBOutlet var lblStatus: UILabel!
    
+    var delegate: ButtonDelegate?
+    var indexPath: IndexPath?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,10 +33,16 @@ class FriendsCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    @IBAction func setProfile(_ sender: Any) {
+        delegate?.onClickCellButton(in: indexPath!.row)
+    }
+    
     func setFriendInformation(friendImageName: String, name:String, status:String){
-        friendsImageView.image = UIImage(named: friendImageName)
+        btnProfile.setImage(UIImage(named: friendImageName), for: .normal)
         lblName.text = name
         lblStatus.text = status
     }
 }
+
+
+

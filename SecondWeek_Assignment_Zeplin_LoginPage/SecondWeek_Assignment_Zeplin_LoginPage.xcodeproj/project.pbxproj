@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1857C2D02494CDAC0019450B /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857C2CF2494CDAC0019450B /* ProfileData.swift */; };
+		1857C2D22494CE270019450B /* UploadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857C2D12494CE270019450B /* UploadService.swift */; };
+		1857C2D42494D2B10019450B /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857C2D32494D2B10019450B /* UIImageView+Extensions.swift */; };
 		1863F893246EB8E6006802AD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F892246EB8E6006802AD /* ChatViewController.swift */; };
 		1863F895246EB93D006802AD /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F894246EB93D006802AD /* FriendsCell.swift */; };
 		1863F897246EB9FB006802AD /* FriendsInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863F896246EB9FB006802AD /* FriendsInformation.swift */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1857C2CF2494CDAC0019450B /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		1857C2D12494CE270019450B /* UploadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadService.swift; sourceTree = "<group>"; };
+		1857C2D32494D2B10019450B /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		1863F892246EB8E6006802AD /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		1863F894246EB93D006802AD /* FriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
 		1863F896246EB9FB006802AD /* FriendsInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsInformation.swift; sourceTree = "<group>"; };
@@ -123,6 +129,8 @@
 				1863F8A92472814A006802AD /* SigninData.swift */,
 				1863F8AB24728970006802AD /* SignupData.swift */,
 				1863F8AD247289B7006802AD /* SignupService.swift */,
+				1857C2CF2494CDAC0019450B /* ProfileData.swift */,
+				1857C2D12494CE270019450B /* UploadService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 				1881496924615AF900672E13 /* UserModel.swift */,
 				1863F894246EB93D006802AD /* FriendsCell.swift */,
 				1863F896246EB9FB006802AD /* FriendsInformation.swift */,
+				1857C2D32494D2B10019450B /* UIImageView+Extensions.swift */,
 			);
 			path = SecondWeek_Assignment_Zeplin_LoginPage;
 			sourceTree = "<group>";
@@ -274,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1857C2D22494CE270019450B /* UploadService.swift in Sources */,
 				18CF91DA244AE5850049B9B9 /* ViewController.swift in Sources */,
 				1863F8AC24728970006802AD /* SignupData.swift in Sources */,
 				1863F8A4246FC641006802AD /* LoginService.swift in Sources */,
@@ -281,9 +291,11 @@
 				18CF91D6244AE5850049B9B9 /* AppDelegate.swift in Sources */,
 				18CF91EC244AF2F40049B9B9 /* SignUpViewController.swift in Sources */,
 				1863F8A2246FC55E006802AD /* NetworkResult.swift in Sources */,
+				1857C2D02494CDAC0019450B /* ProfileData.swift in Sources */,
 				1863F893246EB8E6006802AD /* ChatViewController.swift in Sources */,
 				1881496A24615AF900672E13 /* UserModel.swift in Sources */,
 				1863F897246EB9FB006802AD /* FriendsInformation.swift in Sources */,
+				1857C2D42494D2B10019450B /* UIImageView+Extensions.swift in Sources */,
 				1863F89D246FBD49006802AD /* APIConstants.swift in Sources */,
 				18CF91D8244AE5850049B9B9 /* SceneDelegate.swift in Sources */,
 				1881496C2461617600672E13 /* HomeViewController.swift in Sources */,
