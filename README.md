@@ -92,6 +92,6 @@
 
 ### [Soptkathon (6/6~6/7)](https://github.com/soptkathon/soptkathon-client/tree/yangjaeuk)
 
-### [Week6 (6/12)]()
+### [Week6 (6/12)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/6th-iOS/README.md)
 
 ### 
