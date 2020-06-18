@@ -207,7 +207,7 @@ func setRoomDetails(){
                 for data in data{
                     self.roomDetailList.append(RoomDetail(imageUrl: data.imgUrl, factoryName: data.company, description: data.content, price: data.price))
                 }
-                self.roomDetailCollectionView.reloadData()
+                self.roomDetailCollectionView.reloadData() 
 
             case .requestErr(_):
                 print("Request error@@")
@@ -221,4 +221,18 @@ func setRoomDetails(){
         }
 }
 ```
+
+
+
+### ***Tableview, CollectionView에서 데이터가 안넘어올때?***
+
+<img width="952" alt="스크린샷 2020-06-18 오후 6 20 20" src="https://user-images.githubusercontent.com/56633607/85002840-60766400-b190-11ea-828a-87f2b1d0a527.png">
+
+#### **데이터를 받아오는 Thread가 다르기 때문에 데이터를 UIView에 넣어줄 때 **
+
+#### **reload()를 호출해야 한다.**
+
+ex) self.roomDetailCollectionView.reloadData()
+
+
 
