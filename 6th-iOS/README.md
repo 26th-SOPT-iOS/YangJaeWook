@@ -224,6 +224,41 @@ func setRoomDetails(){
 
 
 
+> imageUrl을 받아와서 UIImage 적용시키기
+
+```swift
+//
+//  RoomDetailCell.swift
+//  5th_Seminar(todayhouse)
+//
+//  Created by 양재욱 on 2020/06/09.
+//  Copyright © 2020 hjyoo. All rights reserved.
+//
+
+import UIKit
+
+class RoomDetailCell: UICollectionViewCell {
+    static let identifier:String = "RoomDetailCell"
+    
+    @IBOutlet weak var roomDetailImage: UIImageView!
+    @IBOutlet weak var roomDetailFName: UILabel!
+    @IBOutlet weak var roomDetailDesc: UILabel!
+    @IBOutlet weak var roomDetailPrice: UILabel!
+    
+    func set(roomDetail: RoomDetail){
+        let url = URL(string: roomDetail.imageUrl)
+        let data = try? Data(contentsOf: url!)
+        
+        roomDetailImage.image = UIImage(data: data!)
+        roomDetailFName.text = roomDetail.factoryName
+        roomDetailDesc.text = roomDetail.description
+        roomDetailPrice.text = String(roomDetail.price)+" 원"
+    }
+}
+```
+
+
+
 ### ***Tableview, CollectionView에서 데이터가 안넘어올때?***
 
 <img width="952" alt="스크린샷 2020-06-18 오후 6 20 20" src="https://user-images.githubusercontent.com/56633607/85002840-60766400-b190-11ea-828a-87f2b1d0a527.png">
