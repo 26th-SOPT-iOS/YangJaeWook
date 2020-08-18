@@ -95,3 +95,6 @@
 ### [Week6 (6/12)](https://github.com/26th-SOPT-iOS/YangJaeWook/blob/master/6th-iOS/README.md)
 
 ### 
+
+
+  ### [프로젝트 초기 설정](./projectInit.md)
