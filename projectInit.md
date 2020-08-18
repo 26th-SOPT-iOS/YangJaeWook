@@ -10,20 +10,20 @@
 <br/>
 
 2. 미리 만들어 둔 원하는 storyboard ID 입력   
-   <img src="/Users/yangjaeug/Desktop/GitHub/YangJaeWook/READMEimg/reference05.png" width="400" height="200"> 
+   <img src="./READMEimg/reference05.png" width="400" height="200"> 
 
 <br/>
 
 3. 원하는 storyboard reference 를 선택한 후 Tab Bar Controller 선택
 
-<img src="/Users/yangjaeug/Desktop/GitHub/YangJaeWook/READMEimg/reference04.png" width="300" height="350"> <img src="/Users/yangjaeug/Desktop/GitHub/YangJaeWook/READMEimg/reference08.png" width="300" height="500"> 
+<img src="./READMEimg/reference04.png" width="300" height="350"> <img src="./READMEimg/reference08.png" width="300" height="500"> 
 
 <br/>
 
 
 4. 확인
 
-<img src="/Users/yangjaeug/Desktop/GitHub/YangJaeWook/READMEimg/reference01.gif" width="200" height="400"> 
+<img src="./READMEimg/reference01.gif" width="200" height="400"> 
 
 <br/>
 
@@ -35,20 +35,20 @@
 
 1. 참조한 storyboard 의 viewcontroller 에 tabbar item 추가   
 
-<img src="/Users/yangjaeug/Desktop/GitHub/YangJaeWook/READMEimg/reference06.png" width="400" height="300"> 
+<img src="./READMEimg/reference06.png" width="400" height="300"> 
 
 <br/>
 
 2. tabbar item 클릭 후 원하는 title 과 image 설정
 
-<img src="/Users/yangjaeug/Desktop/GitHub/YangJaeWook/READMEimg/reference07.png" width="200" height="350"> 
+<img src="./READMEimg/reference07.png" width="200" height="350"> 
 
 <br/>
 
 
 3. 확인
 
-<img src="/Users/yangjaeug/Desktop/GitHub/YangJaeWook/READMEimg/reference02.gif" width="200" height="400"> 
+<img src="./READMEimg/reference02.gif" width="200" height="400"> 
 
 <br/>
 
