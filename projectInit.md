@@ -5,7 +5,7 @@
 <br/>
 
 1. Storyboard Reference 추가   
-   <img src="/Users/yangjaeug/Desktop/GitHub/YangJaeWook/READMEimg/reference03.png" width="400" height="300"> 
+   <img src="./READMEimg/reference03.png" width="400" height="300"> 
 
 <br/>
 
